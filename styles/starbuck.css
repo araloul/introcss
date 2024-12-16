@@ -7,17 +7,18 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .header{
-    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
     padding: 20px;
+    height: 90px;
 }
 .topnavbar{
     display: flex;
     justify-content: space-between;
     max-width: 85%;
     margin: 0 auto;
-    font-size: 12px;
+    font-size: 14px;
     color: #000000DE;
-    /* text-transform: uppercase; */
+    height: 50px;
 }
 
 .topnavbar .nav{
@@ -34,18 +35,53 @@ body{
     font-weight: 900;
     color: black;
 }
-.topnavbar .nav .nav-item a:hover{
-    color: green;
+.topnavbar .nav .nav-item.left a:hover{
+    color: #034f2e;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness:300;
+    text-underline-offset: 30px;  
 }
+.topnavbar .nav .nav-item.right a:hover{
+    color: #565a5d;
+    
+}
+
 .left-nav{
     text-transform: uppercase;
     font-family: "Urbanist", sans-serif ;
+    letter-spacing: 1.6px;
+    
 }
 
-.cookie-banner{
+.nav-item.button {
+    border: 1px solid #000;
+    height: 33px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item.button.ingresar{
+    width: 97px;
+}
+.nav-item.button.unete{
+    width: 97px;
+    /* background-color: #000; */
+
+    
+}
+a #color-text {
+    color: white;
+}
+
+.main{
+    margin: 0 45px;
+}
+.cookie-banner {
     padding: 30px ;
     border-top: 1px solid;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100vw;
     display: flex;
