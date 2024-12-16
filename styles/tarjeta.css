@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:"Roboto", serif;
+}
+
+/* Tarjeta verde */
+#tarjeta-uno{
+    background-color:  #1E3932;
+    position: relative;
+    margin-bottom: 30px;
+}
+#tarjeta-uno .contenedor-imagen{
+    width: 50%;
+}
+#tarjeta-uno .contenedor-imagen .imagen-starbucks{
+    max-width: 100%;
+}
+.contenedor-texto{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 364px;
+}
+.contenedor-interno{
+    display: inline-block;
+}
+
+/* tarjeta roja */
+#tarjeta-tres{
+    background-color: red;
+    position: relative;
+}
+#tarjeta-tres .contenedor-imagen{
+    width: 50%;
+}
+#tarjeta-tres .contenedor-imagen .imagen-starbucks{
+    max-width: 100%;
+}
